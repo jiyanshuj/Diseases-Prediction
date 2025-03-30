@@ -1,0 +1,77 @@
+2 pregnancies
+Glucose Level: 120 mg/dL
+Blood Pressure: 70 mm Hg
+Skin Thickness: 20 mm
+Insulin Level: 85 IU/mL
+BMI: 28.4
+Diabetes Pedigree Function: 0.455
+Age: 32 years
+
+The person is not diabetic
+
+6 pregnancies
+Glucose: 165 mg/dL (high)
+Blood Pressure: 90 mm Hg
+Skin Thickness: 35 mm
+Insulin: 200 IU/mL (elevated)
+BMI: 37.5 (obese)
+Diabetes Pedigree Function: 0.8 (hereditary risk)
+Age: 45
+
+The person is diabetic
+
+
+input_data = [
+    135.0,        # MDVP:Fo(Hz)
+    0.0021,       # MDVP:RAP
+    0.021,        # Shimmer:APQ3
+    22.5,         # HNR
+    2.3,          # D2
+    146.0,        # MDVP:Fhi(Hz)
+    0.0016,       # MDVP:PPQ
+    0.005,        # Shimmer:APQ5
+    0.097,        # RPDE
+    -6.75,        # PPE
+    110.0,        # MDVP:Flo(Hz)
+    0.027,        # Jitter:DDP
+    0.026,        # MDVP:APQ
+    0.72,         # DFA
+    0.029,        # MDVP:Jitter(%)
+    0.35,         # MDVP:Shimmer
+    0.72,         # Shimmer:DDA
+    0.00002,      # spread1
+    0.0041,       # MDVP:Jitter(Abs)
+    0.23,         # MDVP:Shimmer(dB)
+    0.012,        # NHR
+    0.26          # spread2
+]
+
+The person has Parkinson's disease
+
+
+input_negative = [
+    138.5,       # MDVP:Fo(Hz)
+    0.0018,      # MDVP:RAP
+    0.017,       # Shimmer:APQ3
+    27.2,        # HNR
+    2.1,         # D2
+    154.2,       # MDVP:Fhi(Hz)
+    0.0012,      # MDVP:PPQ
+    0.024,       # Shimmer:APQ5
+    0.045,       # RPDE
+    -4.2,        # PPE
+    115.6,       # MDVP:Flo(Hz)
+    0.006,       # Jitter:DDP
+    0.021,       # MDVP:APQ
+    0.65,        # DFA
+    0.026,       # MDVP:Jitter(%)
+    0.29,        # MDVP:Shimmer
+    0.060,       # Shimmer:DDA
+    -5.2,        # spread1
+    0.000015,    # MDVP:Jitter(Abs)
+    0.18,        # MDVP:Shimmer(dB)
+    0.0032,      # NHR
+    0.24         # spread2
+]
+
+The person has no Parkinson's disease
