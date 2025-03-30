@@ -4,7 +4,4 @@ scikit-learn
 pandas
 numpy
 Pillow
-tensorflow
-matplotlib
 seaborn
-opencv-python

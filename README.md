@@ -50,7 +50,7 @@ Make sure you have **Python 3.10.1** installed.
 
 ## Author
 
-- **Jiyanshu**
+- **Jiyanshu Jain**
 - email: [jainjiyanshu@gmail.com]
   GitHub: [https://github.com/jiyanshuj]
 #
