@@ -1,15 +1,14 @@
-# Streamlit ML Dashboard
+# Disease Prediction Web App
 
-This is a machine learning-powered web application built with **Streamlit** that demonstrates how to integrate various ML tools and visualizations into a simple, interactive dashboard. The app leverages pre-trained models and popular data science libraries to showcase real-time predictions, visualizations, and data interactions.
+This is a machine learning-powered web application designed to predict diseases like **Diabetes**, **Heart Disease**, and **Parkinson's** based on user input. The web app utilizes pre-trained models and Streamlit for the frontend to provide users with quick and reliable predictions.
 
 ---
 
 ## 🎯 Features
 
-- **Home Page:** Overview of the dashboard and its capabilities.
-- **ML Model Integration:** Interactive section to add or test machine learning models (e.g., classification, regression).
-- **Visualization Tools:** Built-in support for rendering plots, charts, and graphs using Matplotlib and Seaborn.
-- **Image Handling:** Upload and process images using OpenCV and Pillow.
+- **Diabetes Prediction:**  Predict whether a person has diabetes based on various health indicators such as glucose level, blood pressure, and BMI.
+- **Heart Disease Prediction:** Predict the likelihood of heart disease based on input features like age, sex, blood pressure, and cholesterol levels.
+- **Parkinson's Prediction:** Predict whether a person has Parkinson's disease based on speech features such as jitter and shimmer.
 - **Custom Sidebar Menu:** Navigation powered by `streamlit-option-menu`.
 
 ---
@@ -19,10 +18,7 @@ This is a machine learning-powered web application built with **Streamlit** that
 - **Python 3.10.1**
 - **Streamlit:** Web frontend for building UI.
 - **scikit-learn:** ML model creation and testing.
-- **TensorFlow:** For deep learning models (optional).
 - **Pandas & NumPy:** Data handling and preprocessing.
-- **Matplotlib & Seaborn:** Data visualization.
-- **Pillow & OpenCV:** Image processing.
 - **streamlit-option-menu:** Sidebar navigation component.
 
 ---
@@ -31,7 +27,30 @@ This is a machine learning-powered web application built with **Streamlit** that
 
 Make sure you have **Python 3.10.1** installed.
 
-Install the dependencies:
+## Installation
 
-```bash
-pip install -r requirements.txt
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/jiyanshuj/Diseases-Prediction
+    ```
+
+2. **Navigate into the project directory**:
+    ```bash
+    cd Diseases-Prediction
+    ```
+3. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4. **Run the application**:
+    ```bash
+    python -m streamlit run app.py
+    ```
+    After running this command, the app will be available in your browser at `http://localhost:8501`.
+
+## Author
+
+- **Jiyanshu**
+- email: [jainjiyanshu@gmail.com]
+  GitHub: [https://github.com/jiyanshuj]
+#
